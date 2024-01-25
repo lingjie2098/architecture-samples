@@ -1,3 +1,8 @@
+#[versions]声明可以被依赖项引用的版本
+#[libraries]声明坐标的别名
+#[bundles]声明依赖包
+#[plugins]声明插件
+
 [versions]
 accompanist = "0.28.0"
 annotation = "1.5.0"
