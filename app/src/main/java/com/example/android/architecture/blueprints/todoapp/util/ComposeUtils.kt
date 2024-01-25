@@ -52,5 +52,21 @@ fun LoadingContent(
             modifier = modifier,
             content = content,
         )
+        // The androidx.compose equivalent of SwipeRefresh is Modifier.pullRefresh().
+        /*val rememberPullRefreshState = rememberPullRefreshState(
+            refreshing = loading,
+            onRefresh = onRefresh
+        )
+        Box(
+            modifier = modifier.pullRefresh(
+                state = rememberPullRefreshState
+            )
+        ) {
+            content()
+            PullRefreshIndicator(
+                refreshing = loading,
+                state = rememberPullRefreshState
+            )
+        }*/
     }
 }
