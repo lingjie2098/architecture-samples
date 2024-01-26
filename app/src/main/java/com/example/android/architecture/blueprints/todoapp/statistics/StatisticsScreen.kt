@@ -76,6 +76,7 @@ private fun StatisticsContent(
     modifier: Modifier = Modifier
 ) {
     val commonModifier = modifier
+        // 0.0~1.0(match_parent), fillMaxHeight(), fillMaxSize()
         .fillMaxWidth()
         .padding(all = dimensionResource(id = R.dimen.horizontal_margin))
 
